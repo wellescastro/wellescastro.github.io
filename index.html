@@ -19,7 +19,7 @@
   <link href="https://fonts.googleapis.com/css?family=Lato:400,700,400italic,700italic" rel="stylesheet" type="text/css">
 
   <!-- Theme CSS -->
-  <link href="css/freelancer.min.css" rel="stylesheet">
+  <link href="css/freelancer.css" rel="stylesheet">
 
 </head>
 
@@ -35,6 +35,9 @@
       </button>
       <div class="collapse navbar-collapse" id="navbarResponsive">
         <ul class="navbar-nav ml-auto">
+          <li class="nav-item mx-0 mx-lg-1">
+            <a class="nav-link py-3 px-0 px-lg-3 rounded js-scroll-trigger" href="#videos">Talks/Lessons</a>
+          </li>
           <li class="nav-item mx-0 mx-lg-1">
             <a class="nav-link py-3 px-0 px-lg-3 rounded js-scroll-trigger" href="#portfolio">Portfolio</a>
           </li>
@@ -69,7 +72,68 @@
     </div>
   </header>
 
-  <!-- Portfolio Section -->
+  <section class="page-section portfolio video-section" id="videos">
+    <div class="container">
+
+      <!-- Portfolio Section Heading -->
+      <h2 class="page-section-heading text-center text-uppercase text-secondary mb-0">Talks/Lessons</h2>
+
+      <!-- Icon Divider -->
+      <div class="divider-custom">
+        <div class="divider-custom-line"></div>
+        <div class="divider-custom-icon">
+          <i class="fas fa-star"></i>
+        </div>
+        <div class="divider-custom-line"></div>
+      </div>
+
+      <!-- Portfolio Grid Items -->
+      <div class="row">
+
+        <!-- Portfolio Item 1 -->
+        <div class="col-md-6 col-lg-4">
+          <div class="portfolio-item mx-auto">
+            <div class="row justify-content-center lead" style="font-weight: 600; text-align:center; cursor: default;">
+              <p>Introduction to Decision Trees <br/> (Classical Machine Learning)</p>
+            </div>
+            <div class="row justify-content-center">
+              <a href="https://www.youtube.com/watch?v=ZC998cU-TqE" target="_blank">
+                <img class="img-fluid" src="img/portfolio/video-decision-tree-thumbnail.png" alt="Introduction to Decision Trees Thumbnail">
+              </a>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-md-6 col-lg-4">
+          <div class="portfolio-item mx-auto">
+            <div class="row justify-content-center lead" style="font-weight: 600; text-align:center; cursor: default;">
+              <p>Transformer: how one of ChatGPT's key ingredients works </p>
+            </div>
+            <div class="row justify-content-center">
+              <a href="https://www.youtube.com/watch?v=MUql1LDElAg" target="_blank">
+                <img class="img-fluid" src="img/portfolio/video-chatgpt-thumbnail.png" alt="Transformers Thumbnail">
+              </a>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-md-6 col-lg-4">
+          <div class="portfolio-item mx-auto">
+            <div class="row justify-content-center lead" style="font-weight: 600; text-align:center; cursor: default;">
+              <p>Loss Functions <br/> (Deep Learning Course)</p>
+            </div>
+            <div class="row justify-content-center">
+              <a href="https://www.youtube.com/watch?v=J_zIMnOgkkc&list=PLKdsQEUq-GIGMkge4PrHmOKVZVjMrQEfC&index=19" target="_blank">
+                <img class="img-fluid" src="img/portfolio/video-loss-function-thumbnail.png" alt="Loss Function Thumbnail">
+              </a>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
   <section class="page-section portfolio" id="portfolio">
     <div class="container">
 
@@ -132,43 +196,6 @@
             </div>
           </div>
         </div>
-
-        <!-- Portfolio Item 4 -->
-        <!-- <div class="col-md-6 col-lg-4">
-          <div class="portfolio-item mx-auto" data-toggle="modal" data-target="#portfolioModal4">
-            <div class="portfolio-item-caption d-flex align-items-center justify-content-center h-100 w-100">
-              <div class="portfolio-item-caption-content text-center text-white">
-                <i class="fas fa-plus fa-3x"></i>
-              </div>
-            </div>
-            <img class="img-fluid" src="img/portfolio/game.png" alt="">
-          </div>
-        </div> -->
-
-        <!-- Portfolio Item 5 -->
-        <!-- <div class="col-md-6 col-lg-4">
-          <div class="portfolio-item mx-auto" data-toggle="modal" data-target="#portfolioModal5">
-            <div class="portfolio-item-caption d-flex align-items-center justify-content-center h-100 w-100">
-              <div class="portfolio-item-caption-content text-center text-white">
-                <i class="fas fa-plus fa-3x"></i>
-              </div>
-            </div>
-            <img class="img-fluid" src="img/portfolio/safe.png" alt="">
-          </div>
-        </div> -->
-
-        <!-- Portfolio Item 6 -->
-        <!-- <div class="col-md-6 col-lg-4">
-          <div class="portfolio-item mx-auto" data-toggle="modal" data-target="#portfolioModal6">
-            <div class="portfolio-item-caption d-flex align-items-center justify-content-center h-100 w-100">
-              <div class="portfolio-item-caption-content text-center text-white">
-                <i class="fas fa-plus fa-3x"></i>
-              </div>
-            </div>
-            <img class="img-fluid" src="img/portfolio/submarine.png" alt="">
-          </div>
-        </div> -->
-
       </div>
       <!-- /.row -->
 
@@ -232,7 +259,7 @@
         <div class="col-lg-8 mx-auto">
           <!-- To configure the contact form email address, go to mail/contact_me.php and update the email address in the PHP file on line 19. -->
             <p class="lead">
-            <b style="font-weight: 600">E-mail </b>: dayvidwelles@outlook.com | wellescastro@gmail.com | dwco@cin.ufpe.br <br/>
+            <b style="font-weight: 600">E-mail </b>: wellescastro@gmail.com | dayvidwelles@outlook.com <br/>
             <b style="font-weight: 600"> Phone number </b>: +55 81 98210-6539 <br/>
             <b style="font-weight: 600"> Social medias </b>: <a href="https://www.researchgate.net/profile/Dayvid_Castro"> ResearchGate </a> | <a href="https://www.linkedin.com/in/dayvidcastro/"> LinkedIn </a> <br/>
             </p>
